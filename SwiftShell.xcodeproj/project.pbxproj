@@ -19,6 +19,11 @@
 		D0ACE6851CF1321200DA5F2C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE6841CF1321200DA5F2C /* Task.swift */; };
 		D0ACE6871CF13D1F00DA5F2C /* Git.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE6861CF13D1F00DA5F2C /* Git.swift */; };
 		D0ACE68B1CF13F3F00DA5F2C /* Which.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE68A1CF13F3F00DA5F2C /* Which.swift */; };
+		E27DA9AC1D5D8BD200EFDE7D /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DA9AB1D5D8BD200EFDE7D /* Head.swift */; };
+		E2CD91CD1D5FBD6700BD43F8 /* Ps.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD91CC1D5FBD6700BD43F8 /* Ps.swift */; };
+		E2CD91D01D5FC60B00BD43F8 /* Kill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD91CF1D5FC60B00BD43F8 /* Kill.swift */; };
+		E2CD91D21D5FC63C00BD43F8 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD91D11D5FC63C00BD43F8 /* Sleep.swift */; };
+		E2CD91D41D5FCB8D00BD43F8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD91D31D5FCB8D00BD43F8 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		D0ACE6841CF1321200DA5F2C /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		D0ACE6861CF13D1F00DA5F2C /* Git.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Git.swift; sourceTree = "<group>"; };
 		D0ACE68A1CF13F3F00DA5F2C /* Which.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Which.swift; sourceTree = "<group>"; };
+		E27DA9AB1D5D8BD200EFDE7D /* Head.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
+		E2CD91CC1D5FBD6700BD43F8 /* Ps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ps.swift; sourceTree = "<group>"; };
+		E2CD91CF1D5FC60B00BD43F8 /* Kill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kill.swift; sourceTree = "<group>"; };
+		E2CD91D11D5FC63C00BD43F8 /* Sleep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		E2CD91D31D5FCB8D00BD43F8 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +101,7 @@
 		D021EF591CC1A9A00071A3A6 /* SwiftShell */ = {
 			isa = PBXGroup;
 			children = (
+				E2CD91CE1D5FC5EB00BD43F8 /* Process */,
 				D078FC4E1D2CB21300706A2F /* Utility */,
 				D078FC4D1D2CB20300706A2F /* Command */,
 				D078FC4F1D2CB23100706A2F /* Shell */,
@@ -124,6 +135,8 @@
 				D0997B6C1CC1CBCD00D9BC6A /* Echo.swift */,
 				D0ACE6861CF13D1F00DA5F2C /* Git.swift */,
 				D0ACE68A1CF13F3F00DA5F2C /* Which.swift */,
+				E27DA9AB1D5D8BD200EFDE7D /* Head.swift */,
+				E2CD91D31D5FCB8D00BD43F8 /* Date.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -153,6 +166,16 @@
 				D021EF681CC1A9A10071A3A6 /* Info.plist */,
 			);
 			name = Info;
+			sourceTree = "<group>";
+		};
+		E2CD91CE1D5FC5EB00BD43F8 /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				E2CD91CC1D5FBD6700BD43F8 /* Ps.swift */,
+				E2CD91CF1D5FC60B00BD43F8 /* Kill.swift */,
+				E2CD91D11D5FC63C00BD43F8 /* Sleep.swift */,
+			);
+			name = Process;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,14 +287,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CD91CD1D5FBD6700BD43F8 /* Ps.swift in Sources */,
 				D0ACE6851CF1321200DA5F2C /* Task.swift in Sources */,
 				D0997B671CC1C4CC00D9BC6A /* Run.swift in Sources */,
+				E2CD91D41D5FCB8D00BD43F8 /* Date.swift in Sources */,
 				D078FC531D2CBC7900706A2F /* String.swift in Sources */,
+				E27DA9AC1D5D8BD200EFDE7D /* Head.swift in Sources */,
 				D0ACE68B1CF13F3F00DA5F2C /* Which.swift in Sources */,
 				D0ACE6831CF1317000DA5F2C /* Pipe.swift in Sources */,
+				E2CD91D01D5FC60B00BD43F8 /* Kill.swift in Sources */,
 				D0997B651CC1C4B800D9BC6A /* List.swift in Sources */,
 				D0997B6B1CC1CB8200D9BC6A /* PrintWorkingDirectory.swift in Sources */,
 				D0997B691CC1CAC300D9BC6A /* ChangeDirectory.swift in Sources */,
+				E2CD91D21D5FC63C00BD43F8 /* Sleep.swift in Sources */,
 				D0997B6D1CC1CBCD00D9BC6A /* Echo.swift in Sources */,
 				D0ACE6871CF13D1F00DA5F2C /* Git.swift in Sources */,
 				D078FC551D2CBE6A00706A2F /* Print.swift in Sources */,
