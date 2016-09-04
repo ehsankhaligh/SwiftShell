@@ -8,6 +8,6 @@
 
 import Foundation
 
-public func sleep(seconds: String) {
-    return run("sleep", with: seconds)
+public func sleep(seconds: String) -> String {
+    return run("sleep", with: [seconds])
 }

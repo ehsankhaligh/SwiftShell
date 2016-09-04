@@ -20,6 +20,7 @@
 		D0ACE6871CF13D1F00DA5F2C /* Git.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE6861CF13D1F00DA5F2C /* Git.swift */; };
 		D0ACE68B1CF13F3F00DA5F2C /* Which.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE68A1CF13F3F00DA5F2C /* Which.swift */; };
 		E27DA9AC1D5D8BD200EFDE7D /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DA9AB1D5D8BD200EFDE7D /* Head.swift */; };
+		E293D6941D7C782E00832764 /* HostName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E293D6931D7C782E00832764 /* HostName.swift */; };
 		E2CD91CD1D5FBD6700BD43F8 /* Ps.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD91CC1D5FBD6700BD43F8 /* Ps.swift */; };
 		E2CD91D01D5FC60B00BD43F8 /* Kill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD91CF1D5FC60B00BD43F8 /* Kill.swift */; };
 		E2CD91D21D5FC63C00BD43F8 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD91D11D5FC63C00BD43F8 /* Sleep.swift */; };
@@ -54,6 +55,7 @@
 		D0ACE6861CF13D1F00DA5F2C /* Git.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Git.swift; sourceTree = "<group>"; };
 		D0ACE68A1CF13F3F00DA5F2C /* Which.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Which.swift; sourceTree = "<group>"; };
 		E27DA9AB1D5D8BD200EFDE7D /* Head.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
+		E293D6931D7C782E00832764 /* HostName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostName.swift; sourceTree = "<group>"; };
 		E2CD91CC1D5FBD6700BD43F8 /* Ps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ps.swift; sourceTree = "<group>"; };
 		E2CD91CF1D5FC60B00BD43F8 /* Kill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kill.swift; sourceTree = "<group>"; };
 		E2CD91D11D5FC63C00BD43F8 /* Sleep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				D0ACE68A1CF13F3F00DA5F2C /* Which.swift */,
 				E27DA9AB1D5D8BD200EFDE7D /* Head.swift */,
 				E2CD91D31D5FCB8D00BD43F8 /* Date.swift */,
+				E293D6931D7C782E00832764 /* HostName.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				E2CD91CD1D5FBD6700BD43F8 /* Ps.swift in Sources */,
 				D0ACE6851CF1321200DA5F2C /* Task.swift in Sources */,
+				E293D6941D7C782E00832764 /* HostName.swift in Sources */,
 				D0997B671CC1C4CC00D9BC6A /* Run.swift in Sources */,
 				E2CD91D41D5FCB8D00BD43F8 /* Date.swift in Sources */,
 				D078FC531D2CBC7900706A2F /* String.swift in Sources */,
